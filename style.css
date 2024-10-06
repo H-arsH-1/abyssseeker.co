@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('./First.jpeg'); /* Replace with Forstara-inspired image */
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #50c878;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Ecosystem Section */
+.ecosystem-section {
+    padding: 50px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('./second.png');
+    background-size: cover;
+    background-position: 0%;
+    text-align: center;
+}
+
+.ecosystem-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(34, 34, 34, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 250px;
+}
+
+/* Creatures Section */
+.creatures-section {
+    padding: 50px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('./third.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.creature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.creature-card {
+    background-color: rgb(34, 34, 34, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 250px;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(./four.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+/* Contact Section */
+.ppt-section {
+    padding: 50px 20px;
+    background-size: cover;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Add some padding to make the button larger */
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Add a slight rounded corner effect */
+    cursor: pointer; /* Change the cursor to a pointing hand when hovered */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green background color on hover */
+  }
